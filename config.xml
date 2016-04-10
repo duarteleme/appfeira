@@ -18,12 +18,9 @@
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="2000"/>
   <preference name="orientation" value="portrait"/>
-<<<<<<< HEAD
   <preference name="StatusBarBackgroundColor" value="#322D3B"/>
-=======
   <preference name="StatusBarBackgroundColor" value="#322D3B" />
   <preference name="loadUrlTimeoutValue" value="360000" />
->>>>>>> 4bc3fc9da0fca4dacecdfda7401d1bfb2b253687
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
