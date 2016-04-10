@@ -30,8 +30,8 @@ angular.module('expoinga', ['ionic'])
       // a much nicer keyboard experience.
       cordova.plugins.Keyboard.disableScroll(true);
     }
-    if(window.StatusBar) {
-      StatusBar.styleDefault();
+    if (cordova.platformId == 'android') {
+    StatusBar.backgroundColorByHexString("#322D3B");
     }
   });
 })
