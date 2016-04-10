@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
-<widget id="com.asbcomunicacao.expoinga100" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
+<widget id="com.startapplabs.expoinga" version="1.3.0" xmlns="http://www.w3.org/ns/widgets" xmlns:cdv="http://cordova.apache.org/ns/1.0">
   <name>Expoinga</name>
   <description>
     Aplicativo do Evento Expoingá 2016, feira do agronegócio que acontece na cidade de Maringá no Paraná
@@ -18,7 +18,6 @@
   <preference name="SplashScreen" value="screen"/>
   <preference name="SplashScreenDelay" value="4000"/>
   <preference name="orientation" value="portrait"/>
-  <preference name="StatusBarBackgroundColor" value="#322D3B"/>
   <preference name="StatusBarBackgroundColor" value="#322D3B"/>
   <preference name="loadUrlTimeoutValue" value="360000"/>
   <feature name="StatusBar">
