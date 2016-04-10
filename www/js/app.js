@@ -3,6 +3,8 @@ angular.module('expoinga', ['ionic'])
 .run(function($ionicPlatform) {
   $ionicPlatform.ready(function() {
 
+    super.setIntegerProperty("loadUrlTimeoutValue"}, 360000);
+
     // Check for network connection
     if(window.Connection) {
       if(navigator.connection.type == Connection.NONE) {

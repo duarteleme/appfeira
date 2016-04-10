@@ -7,7 +7,7 @@
   <author email="contato@asbcomunicacao.com.br" href="http://www.asbcomunicacao.com.br">
     ASB Comunicação
   </author>
-  <content src="index.html"/>
+  <content src="http://www.expoinga.com.br/app/"/>
   <access origin="*"/>
   <allow-navigation href="*"/>
   <allow-intent href="*"/>
@@ -16,9 +16,14 @@
   <preference name="DisallowOverscroll" value="true"/>
   <preference name="BackupWebStorage" value="none"/>
   <preference name="SplashScreen" value="screen"/>
-  <preference name="SplashScreenDelay" value="4000"/>
+  <preference name="SplashScreenDelay" value="2000"/>
   <preference name="orientation" value="portrait"/>
+<<<<<<< HEAD
   <preference name="StatusBarBackgroundColor" value="#322D3B"/>
+=======
+  <preference name="StatusBarBackgroundColor" value="#322D3B" />
+  <preference name="loadUrlTimeoutValue" value="360000" />
+>>>>>>> 4bc3fc9da0fca4dacecdfda7401d1bfb2b253687
   <feature name="StatusBar">
     <param name="ios-package" value="CDVStatusBar" onload="true"/>
   </feature>
